@@ -47,7 +47,11 @@ console.log(partes2)
 let it = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon';
 let arrayIt = it.split(",");
 console.log(arrayIt)
+
 // 12    Cambie 30 días de JavaScript a 30 días de Python usando el método replace().
+console.log(desafio);
+desafio = desafio.replace("JavaScript","Python")
+console.log(desafio);
 // 13    ¿Qué es el carácter en el índice 15 en la cadena '30 días de JavaScript'? Utilice el método charAt().
 // 14    ¿Cuál es el código de carácter de J en la cadena '30 días de JavaScript' usando charCodeAt()
 // 15    Use indexOf para determinar la posición de la primera aparición de a en 30 días de JavaScript
