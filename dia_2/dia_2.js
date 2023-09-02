@@ -66,6 +66,7 @@ if ( indice != -1 ){
     console.log("no se encuentra");
 }
 
+
 // 15    Use indexOf para determinar la posición de la primera aparición de a en 30 días de JavaScript
 // 16    Utilice lastIndexOf para determinar la posición de la última aparición de a en 30 días de JavaScript.
 // 17    Usa indexOf para encontrar la posición de la primera aparición de la palabra porque en la siguiente oración:'No puedes terminar una oración con porque porque porque es una conjunción'
