@@ -57,6 +57,15 @@ console.log(desafio2);
 console.log("El caracter del indice 15 es: " , desafio.charAt([15]));
 
 // 14    ¿Cuál es el código de carácter de J en la cadena '30 días de JavaScript' usando charCodeAt()
+const letra = "J";
+const indice = desafio.indexOf(letra);
+if ( indice != -1 ){
+    const valorUnicode = desafio.charCodeAt(indice);
+    console.log(valorUnicode)
+}else{
+    console.log("no se encuentra");
+}
+
 // 15    Use indexOf para determinar la posición de la primera aparición de a en 30 días de JavaScript
 // 16    Utilice lastIndexOf para determinar la posición de la última aparición de a en 30 días de JavaScript.
 // 17    Usa indexOf para encontrar la posición de la primera aparición de la palabra porque en la siguiente oración:'No puedes terminar una oración con porque porque porque es una conjunción'
