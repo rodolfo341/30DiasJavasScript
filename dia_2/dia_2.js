@@ -67,10 +67,21 @@ if ( indice != -1 ){
 }
 
 // 15    Use indexOf para determinar la posición de la primera aparición de a en 30 días de JavaScript
-console.log(`La primera aparicion de la letra 'a' es en el indice: ${desafio.indexOf("a")}`)
+console.log(`La primera aparicion de la letra 'a' 
+es en el indice: ${desafio.indexOf("a")}`);
 
 // 16    Utilice lastIndexOf para determinar la posición de la última aparición de a en 30 días de JavaScript.
-// 17    Usa indexOf para encontrar la posición de la primera aparición de la palabra porque en la siguiente oración:'No puedes terminar una oración con porque porque porque es una conjunción'
+console.log(`La ultima aparicion de la letra 'a' 
+es en el indice: ${desafio.lastIndexOf("a")}`);
+
+// 17   Usa indexOf para encontrar la posición de la primera aparición de la palabra 
+//      porque en la siguiente oración:
+//      'No puedes terminar una oración con porque porque porque es una conjunción'
+let oracion = 'No puedes terminar una oración con porque porque porque es una conjunción';
+console.log(`LA primera aparicion de la palabra 
+"porque" es en el indice: ${oracion.indexOf("porque")}`);
+
+
 // 18    Usa lastIndexOf para encontrar la posición de la última aparición de la palabra porque en la siguiente oración:'No puedes terminar una oración con porque porque porque es una conjunción'
 // 19    Usa buscar para encontrar la posición de la primera aparición de la palabra porque en la siguiente oración:'No puedes terminar una oración con porque porque porque es una conjunción'
 // 20    Use trim() para eliminar cualquier espacio en blanco final al principio y al final de una cadena. Por ejemplo, '30 días de JavaScript'.
