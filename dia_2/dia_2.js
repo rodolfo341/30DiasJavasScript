@@ -81,8 +81,12 @@ let oracion = 'No puedes terminar una oración con porque porque porque es una c
 console.log(`LA primera aparicion de la palabra 
 "porque" es en el indice: ${oracion.indexOf("porque")}`);
 
+// 18   Usa lastIndexOf para encontrar la posición de la última aparición de la palabra 
+//      porque en la siguiente oración:
+//      'No puedes terminar una oración con porque porque porque es una conjunción'
+console.log(`LA primera aparicion de la palabra 
+"porque" es en el indice: ${oracion.lastIndexOf("porque")}`);
 
-// 18    Usa lastIndexOf para encontrar la posición de la última aparición de la palabra porque en la siguiente oración:'No puedes terminar una oración con porque porque porque es una conjunción'
 // 19    Usa buscar para encontrar la posición de la primera aparición de la palabra porque en la siguiente oración:'No puedes terminar una oración con porque porque porque es una conjunción'
 // 20    Use trim() para eliminar cualquier espacio en blanco final al principio y al final de una cadena. Por ejemplo, '30 días de JavaScript'.
 // 21    Use el método startsWith() con la cadena 30 días de JavaScript y haga que el resultado sea verdadero
