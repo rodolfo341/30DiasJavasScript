@@ -101,7 +101,8 @@ console.log(`La cadena sin espacios al final y al princicio
 ${espacios.trim()}`);
 
 // 21    Use el método startsWith() con la cadena 30 días de JavaScript y haga que el resultado sea verdadero
-
+console.log(desafio)
+console.log(desafio.startsWith("30 días de JavaScript"));
 
 // 22    Use el método endsWith() con la cadena 30 días de JavaScript y haga que el resultado sea verdadero
 // 23    Usa el método match() para encontrar todos los a en 30 días de JavaScript
