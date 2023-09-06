@@ -87,7 +87,12 @@ console.log(`LA primera aparicion de la palabra
 console.log(`LA primera aparicion de la palabra 
 "porque" es en el indice: ${oracion.lastIndexOf("porque")}`);
 
-// 19    Usa buscar para encontrar la posición de la primera aparición de la palabra porque en la siguiente oración:'No puedes terminar una oración con porque porque porque es una conjunción'
+// 19    Usa search para encontrar la posición de la primera aparición de la palabra porque en la siguiente oración:
+console.log(`La primera aparicion de la palabra 
+"porque" es en el indice: ${oracion.search("porque")}"`);
+
+
+//      'No puedes terminar una oración con porque porque porque es una conjunción'
 // 20    Use trim() para eliminar cualquier espacio en blanco final al principio y al final de una cadena. Por ejemplo, '30 días de JavaScript'.
 // 21    Use el método startsWith() con la cadena 30 días de JavaScript y haga que el resultado sea verdadero
 // 22    Use el método endsWith() con la cadena 30 días de JavaScript y haga que el resultado sea verdadero
