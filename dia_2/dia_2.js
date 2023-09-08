@@ -112,7 +112,13 @@ let expReg = /porque/g;
 console.log(oracion.match(expReg));
 
 // 24    Use concat() y fusione '30 días de' y 'JavaScript' en una sola cadena, '30 días de JavaScript'
+let cad1 = "30 dias de ";
+let cad2 = "Javascript";
+let suma = cad1.concat(cad2);
+console.log(suma);
+
 // 25    Use el método repeat() para imprimir 30 días de JavaScript 2 veces
+console.log(desafio.repeat(2))
 
 // Ejercicio: Nivel 2
 
