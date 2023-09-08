@@ -149,11 +149,28 @@ if (Math.round(parseFloat('9.8')) === 10) {
     console.log("son diferentes")
 }
 
-
-
 // 5    Verifique si 'on' se encuentra tanto en Python como en la jerga
+let trozo = 'on';
+if ( 'Python'.includes('on') && 'jerga'.includes('on'))  {
+    console.log("Incluido en ambas")
+} else {
+    console.log("No incluido en ambas")
+}
+
 // 6    Espero que este curso no esté lleno de jerga. Compruebe si jargon está en la oración.
+oracion = "Espero que este curso no esté lleno de jerga";
+if ( oracion.includes('jargon')) {
+    console.log("esta incluido");
+} else {
+    console.log("no esta incluido");
+}
+
 // 7    Genere un número aleatorio entre 0 y 100 inclusive.
+let numeroAleatorioEntero = 0;
+for (let i = 1; i <= 100; i++) {
+    numeroAleatorioEntero = Math.floor(Math.random() * (100 - 10 + 1)) + 1;
+    console.log(numeroAleatorioEntero); 
+}
 // 8    Genere un número aleatorio entre 50 y 100 inclusive.
 // 9    Genere un número aleatorio entre 0 y 255 inclusive.
 // 10   Acceda a los caracteres de la cadena 'JavaScript' utilizando un número aleatorio.
