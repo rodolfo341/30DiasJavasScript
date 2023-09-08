@@ -133,10 +133,16 @@ console.log(`The quote 'There is no exercise better for the heart than reaching 
 //      so don't just give money but reach out your hand instead."
 console.log(`"Love is not patronizing and charity isn't about pity, it is about love. Charity and love are the same -- with charity you give love, so don't just give money but reach out your hand instead."`)
 
-
-
-
 // 3    Compruebe si typeof '10' es exactamente igual a 10. Si no, hágalo exactamente igual.
+
+let string_10 = '10';
+let number_10 = 10;
+if (typeof(parseInt(string_10)) === typeof(number_10)){
+    console.log("son del mismo tipo");
+} else {
+    console.log("Son diferentes");
+}
+
 // 4    Compruebe si parseFloat('9.8') es igual a 10, si no, hágalo exactamente igual a 10.
 // 5    Verifique si 'on' se encuentra tanto en Python como en la jerga
 // 6    Espero que este curso no esté lleno de jerga. Compruebe si jargon está en la oración.
