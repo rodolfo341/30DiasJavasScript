@@ -214,8 +214,17 @@ console.log(nuevaOracion);
 // Ejercicios: Nivel 3
 
 // 1    'El amor es lo mejor que hay en este mundo. Algunos encontraron su amor y algunos todavía están buscando su amor. Cuente el número de palabras amor en esta oración.
+oracion = 'El amor es lo mejor que hay en este mundo. Algunos encontraron su amor y algunos todavía están buscando su amor';
+palabra = "amor";
+let separador = oracion.split(" ");
+let cont = 0;
 
-
+for(let i = 0; i <= oracion.length; i++) {
+    if ( separador[i] == palabra ) {
+        cont++;
+    }
+}
+console.log(cont);
 
 // 2   Usa match() para contar el número de todos los porque en la siguiente oración:'No puedes terminar una oración con porque porque porque es una conjunción'
 
