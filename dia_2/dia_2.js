@@ -207,10 +207,15 @@ for (let j = 0; j<=50;j++) {
 console.log(`1 1 1 1 1\n3 1 3 9 27\n4 1 4 16 64\n5 1 5 25 125`);
 
 // 12    Usa substr para separar la frase porque porque porque de la siguiente oración:'No puedes terminar una oración con porque porque porque es una conjunción'
+oracion = "No puedes terminar una oración con porque porque porque es una conjunción";
+let nuevaOracion  = oracion.substr(34,21);
+console.log(nuevaOracion);
 
 // Ejercicios: Nivel 3
 
 // 1    'El amor es lo mejor que hay en este mundo. Algunos encontraron su amor y algunos todavía están buscando su amor. Cuente el número de palabras amor en esta oración.
+
+
 
 // 2   Usa match() para contar el número de todos los porque en la siguiente oración:'No puedes terminar una oración con porque porque porque es una conjunción'
 
