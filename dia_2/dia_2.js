@@ -168,13 +168,37 @@ if ( oracion.includes('jargon')) {
 // 7    Genere un número aleatorio entre 0 y 100 inclusive.
 let numeroAleatorioEntero = 0;
 for (let i = 1; i <= 100; i++) {
-    numeroAleatorioEntero = Math.floor(Math.random() * (100 - 10 + 1)) + 1;
+    numeroAleatorioEntero = Math.floor(Math.random() * (100 - 1 + 1)) + 1;
     console.log(numeroAleatorioEntero); 
 }
+
 // 8    Genere un número aleatorio entre 50 y 100 inclusive.
+numeroAleatorioEntero = 0;
+for (let i = 1; i <= 100; i++) {
+    numeroAleatorioEntero = Math.floor(Math.random() * (100 - 50 + 1)) + 50;
+    console.log(numeroAleatorioEntero); 
+}
+
 // 9    Genere un número aleatorio entre 0 y 255 inclusive.
+numeroAleatorioEntero = 0;
+for (let i = 1; i <= 100; i++) {
+    numeroAleatorioEntero = Math.floor(Math.random() * (255 - 0 + 1)) + 0;
+    console.log(numeroAleatorioEntero); 
+}
+
 // 10   Acceda a los caracteres de la cadena 'JavaScript' utilizando un número aleatorio.
+numeroAleatorioEntero = 0;
+let cadena = "JavaScript";
+let max = cadena.length;
+let i = 0;
+for (let j = 0; j<=50;j++) {
+    i = Math.floor(Math.random() * (max ));
+    console.log(`${cadena[i]}`);
+}
+
+
 // 11   Use console.log() y caracteres de escape para imprimir el siguiente patrón.
+
 
 
 //   Divide la cadena en un array usando el método split()
