@@ -226,19 +226,49 @@ for(let i = 0; i <= oracion.length; i++) {
 }
 console.log(cont);
 
-// 2   Usa match() para contar el número de todos los porque en la siguiente oración:'No puedes terminar una oración con porque porque porque es una conjunción'
+// 2   Usa match() para contar el número de todos los porque en la siguiente oración:
+//     'No puedes terminar una oración con porque porque porque es una conjunción'
+oracion = 'No puedes terminar una oración con porque porque porque es una conjunción';
+palabra = "porque";
+expReg = new RegExp('\\b' + palabra + '\\b', 'gi'); 
+let coincidencia = oracion.match(expReg);
+cont = coincidencia ?   coincidencia.length: 0;
+console.log(cont);
 
 // 3    Limpia el siguiente texto y encuentra la palabra más frecuente (pista, usa replace y expresiones regulares).
+let textoOriginal =
+  "%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $is no@th@ing; &as& mo@re rewarding as educa@ting &and& @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is al@so $the $resu@lt of &love& of tea&ching";
 
-// 4    const sentence = "%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. 
-//      The@re $is no@th@ing; &as& mo@re rewarding a educa@ting &and& @emp%o@weri@ng peo@ple. ;
-//      I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. 
-//      %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is al@so 
-//      $the $resu@lt of &love& of tea&ching";
+let caracteresBasura = "%$&#@!?"
 
-// 5    Calcula el ingreso anual total de la persona extrayendo los números del siguiente texto. 
+let regex = new RegExp("[" + caracteresBasura + "]", "g");
+let textoLimpio = textoOriginal.replace(regex, "");
+console.log(textoLimpio);
+
+// 4    Calcula el ingreso anual total de la persona extrayendo los números del siguiente texto. 
 //      'Él gana 5000 euros de salario por mes, bono anual de 10000 euros, 
 //      cursos en línea de 15000 euros por mes.'
+
+var texto = "Él gana 5000 euros de salario por mes, cuanto gana al año?";
+
+// Utilizar una expresión regular para encontrar números en el texto
+var numeros = texto.match(/\d+/g); // Esto encontrará todos los números en el texto
+
+// Inicializar una variable para almacenar la suma de ingresos mensuales
+var sumaIngresosMensuales = 0;
+
+// Sumar los números encontrados que representan ingresos mensuales
+if (numeros) {
+    for (let i = 0; i < numeros.length; i++) {
+        sumaIngresosMensuales += parseInt(numeros[i], 10); // Convertir el número a entero y sumarlo
+    }
+}
+
+// Calcular el ingreso anual total (Salario mensual multiplicado por 12 meses)
+var ingresoAnualTotal = sumaIngresosMensuales * 12;
+
+console.log("Ingreso anual total: " + ingresoAnualTotal + " euros");
+
 
 // 🎉 ¡FELICITACIONES! 🎉
 
