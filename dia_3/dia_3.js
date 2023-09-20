@@ -24,13 +24,23 @@ console.log(typeof city);
 console.log(typeof age);
 console.log(typeof isMarried);
 console.log(typeof year);
+// 2    Verifique si typeof '10' es igual a 10
+if( typeof '10' === '10' ){
+    console.log("True")
+} else {
+    console.log("False")
+}
+
+//    Verifique si parseInt('9.8') es igual a 10
+if ( parseInt('9.8') === 10) {
+    console.log("True");
+} else {
+    console.log("False");
+}
+
 
 
 /*
-    Verifique si typeof '10' es igual a 10
-
-    Verifique si parseInt('9.8') es igual a 10
-
     Verifique cualquier valor booleano true o false.
         Escriba tres declaraciones de JavaScript que proporcionen un valor verdadero.
         Escriba tres declaraciones de JavaScript que proporcionen un valor falso.
