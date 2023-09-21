@@ -62,20 +62,35 @@ let valor6 = null ? console.log("true"):console.log("False");
 //        4 != '4'
 //        4 == '4'
 //        4 === '4'
-//        Encuentre la longitud de Python y jargon y haga una declaración de comparación falsa.
 let res1 = 4 > 3;
+console.log(res1);
 let res2 = 4 >= 3;
+console.log(res2);
 let res3 = 4 < 3;
+console.log(res3);
 let res4 = 4 <= 3;
+console.log(res4);
 let res5 = 4 == 4;
+console.log(res5);
 let res6 = 4 === 4;
+console.log(res6);
 let res7 = 4 != 4;
+console.log(res7);
 let res8 = 4 !== 4;
+console.log(res8);
 let res9 = 4 != '4';
+console.log(res9);
 let res10 = 4 == '4';
+console.log(res10);
 let res11 = 4 === '4';
+console.log(res11);
+//        Encuentre la longitud de Python y jargon y haga una declaración de comparación falsa.
+let long1 = "Python".length;
+console.log(long1);
+let long2 = "Python".length;
+console.log(long2);
 
-
+console.log( long1.length !== long2.length );
 
 /*    Calcule primero el resultado de las siguientes expresiones sin usar console.log(). Después de decidir el resultado, confirmelo usando console.log()
         4 > 3 && 10 < 12
