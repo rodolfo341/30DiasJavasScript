@@ -49,22 +49,35 @@ let valor4 = false ? console.log("true"):console.log("False");
 let valor5 = 0 ? console.log("true"):console.log("False");
 let valor6 = null ? console.log("true"):console.log("False");
 
-/*
-    Calcule primero el resultado de la siguiente expresión de comparación sin usar console.log(). Después de decidir el resultado, confirmelo usando console.log()
-        4 > 3
-        4 >= 3
-        4 < 3
-        4 <= 3
-        4 == 4
-        4 === 4
-        4 != 4
-        4 !== 4
-        4 != '4'
-        4 == '4'
-        4 === '4'
-        Encuentre la longitud de Python y jargon y haga una declaración de comparación falsa.
+// 5    Calcule primero el resultado de la siguiente expresión de comparación sin usar console.log(). 
+//      Después de decidir el resultado, confirmelo usando console.log()
+//        4 > 3
+//        4 >= 3
+//        4 < 3
+//        4 <= 3
+//        4 == 4
+//        4 === 4
+//        4 != 4
+//        4 !== 4
+//        4 != '4'
+//        4 == '4'
+//        4 === '4'
+//        Encuentre la longitud de Python y jargon y haga una declaración de comparación falsa.
+let res1 = 4 > 3;
+let res2 = 4 >= 3;
+let res3 = 4 < 3;
+let res4 = 4 <= 3;
+let res5 = 4 == 4;
+let res6 = 4 === 4;
+let res7 = 4 != 4;
+let res8 = 4 !== 4;
+let res9 = 4 != '4';
+let res10 = 4 == '4';
+let res11 = 4 === '4';
 
-    Calcule primero el resultado de las siguientes expresiones sin usar console.log(). Después de decidir el resultado, confirmelo usando console.log()
+
+
+/*    Calcule primero el resultado de las siguientes expresiones sin usar console.log(). Después de decidir el resultado, confirmelo usando console.log()
         4 > 3 && 10 < 12
         4 > 3 && 10 > 12
         4 > 3 || 10 < 12
