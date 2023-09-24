@@ -92,20 +92,44 @@ console.log(long2);
 
 console.log( long1.length !== long2.length );
 
-/*    Calcule primero el resultado de las siguientes expresiones sin usar console.log(). Después de decidir el resultado, confirmelo usando console.log()
-        4 > 3 && 10 < 12
-        4 > 3 && 10 > 12
-        4 > 3 || 10 < 12
-        4 > 3 || 10 > 12
-        !(4 > 3)
-        !(4 < 3)
-        !(false)
-        !(4 > 3 && 10 < 12)
-        !(4 > 3 && 10 > 12)
-        !(4 === '4')
-        No hay 'on' tanto en dragon como en python
+// 6    Calcule primero el resultado de las siguientes expresiones sin usar console.log(). 
+//      Después de decidir el resultado, confirmelo usando console.log()
+//        4 > 3 && 10 < 12
+//        4 > 3 && 10 > 12
+//        4 > 3 || 10 < 12
+//        4 > 3 || 10 > 12
+//        !(4 > 3)
+//        !(4 < 3)
+//        !(false)
+//        !(4 > 3 && 10 < 12)
+//        !(4 > 3 && 10 > 12)
+//        !(4 === '4')
+//        No hay 'on' tanto en dragon como en python
 
-    Utilice el objeto Date para realizar las siguientes actividades
+let resp1  = 4 > 3 && 10 < 12;
+console.log(resp1);
+let resp2  = 4 > 3 && 10 > 12;
+console.log(resp2);
+let resp3  = 4 > 3 || 10 < 12;
+console.log(resp3);
+let resp4  = 4 > 3 || 10 > 12;
+console.log(resp4);
+let resp5  = !(4 > 3);
+console.log(resp5);
+let resp6  = !(4 < 3);
+console.log(resp6);
+let resp7  = !(false);
+console.log(resp7);
+let resp8  = !(4 > 3 && 10 < 12);
+console.log(resp8);
+let resp9  = !(4 > 3 && 10 > 12);
+console.log(resp9);
+let resp10 = !(4 === '4');
+console.log(resp10);
+//let resp11 = No hay 'on' tanto en dragon como en python;
+
+
+/*    Utilice el objeto Date para realizar las siguientes actividades
         ¿Qué año es hoy?
         ¿Qué mes es hoy con un número?
         ¿Qué fecha es hoy?
