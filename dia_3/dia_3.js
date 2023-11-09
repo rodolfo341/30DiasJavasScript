@@ -129,6 +129,7 @@ console.log(resp10);
 //let resp11 = No hay 'on' tanto en dragon como en python;
 
 
+
 /*    Utilice el objeto Date para realizar las siguientes actividades
         ¿Qué año es hoy?
         ¿Qué mes es hoy con un número?
