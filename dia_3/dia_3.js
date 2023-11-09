@@ -131,6 +131,8 @@ console.log(resp10);
 
 
 
+
+
 /*    Utilice el objeto Date para realizar las siguientes actividades
         ¿Qué año es hoy?
         ¿Qué mes es hoy con un número?
