@@ -255,6 +255,7 @@ var texto = "Él gana 5000 euros de salario por mes, cuanto gana al año?";
 var numeros = texto.match(/\d+/g); // Esto encontrará todos los números en el texto
 
 
+
 // Inicializar una variable para almacenar la suma de ingresos mensuales
 var sumaIngresosMensuales = 0;
 
