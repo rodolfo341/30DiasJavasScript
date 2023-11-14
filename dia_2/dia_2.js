@@ -19,18 +19,18 @@ desafioMinus = desafio.toLowerCase();
 console.log(desafioMinus);
 
 // 6    Corta (segmenta) la primera palabra de la cadena usando el método substr() o substring()
-let subCadena = desafio.substr(0,2)
+let subCadena = desafio.substr(0, 2)
 console.log(subCadena);
-let subCadena2 = desafio.substring(0,2)
+let subCadena2 = desafio.substring(0, 2)
 console.log(subCadena2)
 
 // 7    Corta la frase Days Of JavaScript de 30 Days Of JavaScript.
-let subCadena3 = desafio.substring(3,desafio.length)
+let subCadena3 = desafio.substring(3, desafio.length)
 console.log(subCadena3)
 
 // 8    Verifique si la cadena contiene una palabra Script usando el método includes()
 let palabra = "Script";
-if (desafio.includes(palabra)){
+if (desafio.includes(palabra)) {
     console.log("Palabra: " + palabra + " esta incluida")
 } else {
     console.log("Palabra: " + palabra + " no esta incluida")
@@ -50,19 +50,19 @@ console.log(arrayIt)
 
 // 12    Cambie 30 días de JavaScript a 30 días de Python usando el método replace().
 console.log(desafio);
-desafio2 = desafio.replace("JavaScript","Python")
+desafio2 = desafio.replace("JavaScript", "Python")
 console.log(desafio2);
 
 // 13    ¿Qué es el carácter en el índice 15 en la cadena '30 días de JavaScript'? Utilice el método charAt().
-console.log("El caracter del indice 15 es: " , desafio.charAt([15]));
+console.log("El caracter del indice 15 es: ", desafio.charAt([15]));
 
 // 14    ¿Cuál es el código de carácter de J en la cadena '30 días de JavaScript' usando charCodeAt()
 const letra = "J";
 const indice = desafio.indexOf(letra);
-if ( indice != -1 ){
+if (indice != -1) {
     const valorUnicode = desafio.charCodeAt(indice);
     console.log(valorUnicode)
-}else{
+} else {
     console.log("no se encuentra");
 }
 
@@ -136,7 +136,7 @@ console.log(`"Love is not patronizing and charity isn't about pity, it is about 
 // 3    Compruebe si typeof '10' es exactamente igual a 10. Si no, hágalo exactamente igual.
 let string_10 = '10';
 let number_10 = 10;
-if (typeof(parseInt(string_10)) === typeof(number_10)){
+if (typeof (parseInt(string_10)) === typeof (number_10)) {
     console.log("son del mismo tipo");
 } else {
     console.log("Son diferentes");
@@ -151,7 +151,7 @@ if (Math.round(parseFloat('9.8')) === 10) {
 
 // 5    Verifique si 'on' se encuentra tanto en Python como en la jerga
 let trozo = 'on';
-if ( 'Python'.includes('on') && 'jerga'.includes('on'))  {
+if ('Python'.includes('on') && 'jerga'.includes('on')) {
     console.log("Incluido en ambas")
 } else {
     console.log("No incluido en ambas")
@@ -159,7 +159,7 @@ if ( 'Python'.includes('on') && 'jerga'.includes('on'))  {
 
 // 6    Espero que este curso no esté lleno de jerga. Compruebe si jargon está en la oración.
 oracion = "Espero que este curso no esté lleno de jerga";
-if ( oracion.includes('jargon')) {
+if (oracion.includes('jargon')) {
     console.log("esta incluido");
 } else {
     console.log("no esta incluido");
@@ -169,21 +169,21 @@ if ( oracion.includes('jargon')) {
 let numeroAleatorioEntero = 0;
 for (let i = 1; i <= 100; i++) {
     numeroAleatorioEntero = Math.floor(Math.random() * (100 - 1 + 1)) + 1;
-    console.log(numeroAleatorioEntero); 
+    console.log(numeroAleatorioEntero);
 }
 
 // 8    Genere un número aleatorio entre 50 y 100 inclusive.
 numeroAleatorioEntero = 0;
 for (let i = 1; i <= 100; i++) {
     numeroAleatorioEntero = Math.floor(Math.random() * (100 - 50 + 1)) + 50;
-    console.log(numeroAleatorioEntero); 
+    console.log(numeroAleatorioEntero);
 }
 
 // 9    Genere un número aleatorio entre 0 y 255 inclusive.
 numeroAleatorioEntero = 0;
 for (let i = 1; i <= 100; i++) {
     numeroAleatorioEntero = Math.floor(Math.random() * (255 - 0 + 1)) + 0;
-    console.log(numeroAleatorioEntero); 
+    console.log(numeroAleatorioEntero);
 }
 
 // 10   Acceda a los caracteres de la cadena 'JavaScript' utilizando un número aleatorio.
@@ -191,8 +191,8 @@ numeroAleatorioEntero = 0;
 let cadena = "JavaScript";
 let max = cadena.length;
 let i = 0;
-for (let j = 0; j<=50;j++) {
-    i = Math.floor(Math.random() * (max ));
+for (let j = 0; j <= 50; j++) {
+    i = Math.floor(Math.random() * (max));
     console.log(`${cadena[i]}`);
 }
 
@@ -208,7 +208,7 @@ console.log(`1 1 1 1 1\n3 1 3 9 27\n4 1 4 16 64\n5 1 5 25 125`);
 
 // 12    Usa substr para separar la frase porque porque porque de la siguiente oración:'No puedes terminar una oración con porque porque porque es una conjunción'
 oracion = "No puedes terminar una oración con porque porque porque es una conjunción";
-let nuevaOracion  = oracion.substr(34,21);
+let nuevaOracion = oracion.substr(34, 21);
 console.log(nuevaOracion);
 
 // Ejercicios: Nivel 3
@@ -219,8 +219,8 @@ palabra = "amor";
 let separador = oracion.split(" ");
 let cont = 0;
 
-for(let i = 0; i <= oracion.length; i++) {
-    if ( separador[i] == palabra ) {
+for (let i = 0; i <= oracion.length; i++) {
+    if (separador[i] == palabra) {
         cont++;
     }
 }
@@ -230,14 +230,14 @@ console.log(cont);
 //     'No puedes terminar una oración con porque porque porque es una conjunción'
 oracion = 'No puedes terminar una oración con porque porque porque es una conjunción';
 palabra = "porque";
-expReg = new RegExp('\\b' + palabra + '\\b', 'gi'); 
+expReg = new RegExp('\\b' + palabra + '\\b', 'gi');
 let coincidencia = oracion.match(expReg);
-cont = coincidencia ?   coincidencia.length: 0;
+cont = coincidencia ? coincidencia.length : 0;
 console.log(cont);
 
 // 3    Limpia el siguiente texto y encuentra la palabra más frecuente (pista, usa replace y expresiones regulares).
 let textoOriginal =
-  "%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $is no@th@ing; &as& mo@re rewarding as educa@ting &and& @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is al@so $the $resu@lt of &love& of tea&ching";
+    "%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $is no@th@ing; &as& mo@re rewarding as educa@ting &and& @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is al@so $the $resu@lt of &love& of tea&ching";
 
 let caracteresBasura = "%$&#@!?"
 
@@ -253,7 +253,6 @@ var texto = "Él gana 5000 euros de salario por mes, cuanto gana al año?";
 
 // Utilizar una expresión regular para encontrar números en el texto
 var numeros = texto.match(/\d+/g); // Esto encontrará todos los números en el texto
-
 
 
 
@@ -344,14 +343,14 @@ console.log("Ingreso anual total: " + ingresoAnualTotal + " euros");
 
 // 3    Limpia el siguiente texto y encuentra la palabra más frecuente (pista, usa replace y expresiones regulares).
 
-// 4    const sentence = "%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. 
+// 4    const sentence = "%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;.
 //      The@re $is no@th@ing; &as& mo@re rewarding a educa@ting &and& @emp%o@weri@ng peo@ple. ;
-//      I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. 
-//      %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is al@so 
+//      I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs.
+//      %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is al@so
 //      $the $resu@lt of &love& of tea&ching";
 
-// 5    Calcula el ingreso anual total de la persona extrayendo los números del siguiente texto. 
-//      'Él gana 5000 euros de salario por mes, bono anual de 10000 euros, 
+// 5    Calcula el ingreso anual total de la persona extrayendo los números del siguiente texto.
+//      'Él gana 5000 euros de salario por mes, bono anual de 10000 euros,
 //      cursos en línea de 15000 euros por mes.'
 
 // 🎉 ¡FELICITACIONES! 🎉
