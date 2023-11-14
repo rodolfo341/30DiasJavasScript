@@ -256,6 +256,7 @@ var numeros = texto.match(/\d+/g); // Esto encontrará todos los números en el 
 
 
 
+
 // Inicializar una variable para almacenar la suma de ingresos mensuales
 var sumaIngresosMensuales = 0;
 
